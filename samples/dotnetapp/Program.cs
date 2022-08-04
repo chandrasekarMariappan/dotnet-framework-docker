@@ -31,6 +31,7 @@ public static class Program
 
         // Environment information
         WriteLine($"{nameof(RuntimeInformation.OSArchitecture)}: {RuntimeInformation.OSArchitecture}");
+        WriteLine($"{nameof(RuntimeInformation.ProcessArchitecture)}: {RuntimeInformation.ProcessArchitecture}");
         WriteLine($"{nameof(Environment.ProcessorCount)}: {Environment.ProcessorCount}");
     }
 }
