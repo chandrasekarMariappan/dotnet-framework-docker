@@ -83,7 +83,7 @@ stages:
     
     windows2016Pool:
       ${{ if eq(variables['System.TeamProject'], parameters.publicProjectName) }}:
-        name: Docker2016-Public
+        name: docker-2016-public
       ${{ if eq(variables['System.TeamProject'], parameters.internalProjectName) }}:
         name: Docker-2016-Internal
     
